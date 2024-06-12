@@ -1,6 +1,0 @@
-{
-  "explorer.excludeGitIgnore": true,
-  "explorer.fileNesting.enabled": false,
-  "search.useGlobalIgnoreFiles": false,
-  "search.useIgnoreFiles": true
-}
