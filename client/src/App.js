@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import ToDoItem from './components/ToDoItem';
+import ToDoItem from './components/ToDoItems';
+import NavbarComp from "./components/Navbar";
 
 function App() {
   // Creating a state component which will hold the ToDo List items
@@ -29,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Testing a few things lol</h1>
+      <NavbarComp />
       {content.webProjects.map((project) => (
         <div className="">
           <ToDoItem
